@@ -11,7 +11,7 @@ const Pan = () => {
           />
         </div>
         <div className="flex flex-col justify-center gap-6 sm:pt-0">
-          <h1 className="text-3xl sm:text-4xl font-serif ml-48 mb-9" data-aos="fade-up">
+          <h1 className="text-3xl sm:text-4xl ml-48 mb-9" data-aos="fade-up">
             Qaree
           </h1>
           <p className="text-lg mr-28 tracking-wider ">

@@ -21,7 +21,7 @@ function Layout() {
 
   return (
     <>
-      <div className="text-white">
+      <div className="text-white font-normal">
         <NavBar />
         <div className="bg-gray">
           <div id="hero">

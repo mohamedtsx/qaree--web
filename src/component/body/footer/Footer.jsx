@@ -5,15 +5,6 @@ import { FiInstagram, FiFacebook } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
-// استيراد الصور والمتغيرات الأخرى كما هي
-import img from "./image1.jpg";
-import img1 from "./man.jpeg";
-import img2 from "./man2.jpeg";
-import img3 from "./man3.jpeg";
-import img4 from "./man4.jpeg";
-import img5 from "./man5.jpeg";
-import img6 from "./man6.jpeg";
-
 const footerLinkes = [
   {
     title: "home",
@@ -53,7 +44,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid md:grid-cols-3 sm:px-12 px-4 py-7">
           <div className="py-4 px-4">
-            <h1 className="sm:text-3xl text-2xl font-serif sm:text-left text-justify mb-3 flex items-center gap-4">
+            <h1 className="sm:text-3xl text-2xl sm:text-left text-justify mb-3 flex items-center gap-4">
               <img src={logo} alt="" className="max-w-[100px]" />
               Qaree
             </h1>
@@ -67,14 +58,14 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 mt-12">
             <div className="py-8  px-4">
-              <h1 className="text-3xl font-serif sm:text-left text-justify mb-3">
+              <h1 className="text-3xl sm:text-left text-justify mb-3">
                 Linkes
               </h1>
               <ul className="flex flex-col gap-3">
                 {footerLinkes.map((link) => (
                   <li
                     className="cursor-pointer hover:text-wrap 
-                    hover:translate-x-1 duration-300 text-gray-200 font-serif"
+                    hover:translate-x-1 duration-300 text-gray-200 "
                     key={link.title}
                   >
                     <span>{link.title}</span>
@@ -84,7 +75,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h1 className="text-3xl font-serif mt-8">Contact Us</h1>
+              <h1 className="text-3xl mt-8">Contact Us</h1>
               <div className="flex items-center gap-3 mt-6 ">
                 <a href="#">
                   <FiInstagram className="text-3xl" />

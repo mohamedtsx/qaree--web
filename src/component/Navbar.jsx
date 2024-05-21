@@ -1,4 +1,3 @@
-// NavBar.js
 import React from "react";
 import logo from "../img/mmm.png";
 import { IoMdSearch } from "react-icons/io";
@@ -12,7 +11,7 @@ const NavBar = () => {
             <div>
               <a
                 href="#hero"
-                className="sm:text-3xl text-2xl font-serif sm:text-left text-justify mb-3 flex items-center gap-4 text-white hover:text-4xl duration-200"
+                className="sm:text-3xl text-2xl sm:text-left text-justify mb-3 flex items-center gap-4 text-white hover:text-4xl duration-200"
               >
                 <img src={logo} alt="Logo" className="max-w-[50px] mx-2" />
                 Qaree
@@ -27,7 +26,7 @@ const NavBar = () => {
               <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
 
-            <div className="flex space-x-10 text-center text-white text-lg font-serif">
+            <div className="flex space-x-10 text-center text-white text-lg">
               <a href="#hero" className="hover:text-xl duration-200">
                 Home
               </a>

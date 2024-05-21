@@ -106,13 +106,20 @@ const Product = () => {
           <p data-aos="fade-up" className="text-4xl text-green-900 font-serif">
             Collect Your Book In One Place
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-serif mt-14 ">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="500"
+            className="text-3xl mt-14 "
+          >
             Top Rating
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-900"></p>
         </div>
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5 text-center">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5 text-center"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+          >
             {bookDate.map((data) => (
               <div
                 data-aos="fade-up"
@@ -126,7 +133,7 @@ const Product = () => {
                   className="h-[220px] w-[150px] object-cover rounded-md"
                 />
                 <div>
-                  <h3 className="font-semibold font-serif">{data.title}</h3>
+                  <h3 className="font-semibold">{data.title}</h3>
                   <p className="text-sm text-green-800 font-serif">
                     {data.author}
                   </p>
@@ -162,7 +169,7 @@ const Product = () => {
                   className="h-[220px] w-[150px] object-cover rounded-md"
                 />
                 <div>
-                  <h3 className="font-semibold font-serif">{data.title}</h3>
+                  <h3 className="font-semibold">{data.title}</h3>
                   <p className="text-sm text-green-800 font-serif">
                     {data.author}
                   </p>
