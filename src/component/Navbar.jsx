@@ -21,7 +21,7 @@ const NavBar = () => {
               <input
                 type="text"
                 placeholder="search"
-                className="w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-blue-300 text-center"
+                className="w-[200px] text-gg sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-blue-300 text-center"
               />
               <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
@@ -29,7 +29,7 @@ const NavBar = () => {
             <div className="flex space-x-10 text-center text-white text-lg">
               <a href="#hero" className="hover:text-xl duration-200">
                 Home
-              </a>
+              </a> 
               <a href="#read" className="hover:text-xl duration-200">
                 Top Reading
               </a>

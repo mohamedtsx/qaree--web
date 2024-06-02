@@ -8,8 +8,6 @@ import img6 from "./community.png";
 import img7 from "./my profile.png";
 import img8 from "./library.png";
 
-
-
 function Features() {
   const componentsData = [
     { image: img1 },
