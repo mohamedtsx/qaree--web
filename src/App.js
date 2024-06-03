@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -38,7 +38,7 @@ import PrivacyPolicyPage from "./component/privacy";
      </>
    );
  }; 
- const router = createHashRouter(
+ const router = createBrowserRouter(
    createRoutesFromElements(
      <Route>
        <Route path="/" element={<Layout />} />
